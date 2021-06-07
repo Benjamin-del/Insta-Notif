@@ -7,7 +7,7 @@ You must create notifications in onesignal!
 # Getting started
 
 Onesignal settings: 
-1. Select "All browsers exept Safari" 
+1. Select "All browsers exept Safari" **You Will be able to add safiri in later if you choose** 
 2. Select Custom app
 3. Slect "My site is not fully http"
 4. You should get some codes on the next page. Insert your app id here:
@@ -15,10 +15,10 @@ Onesignal settings:
 5. Insert your subdomain name here:
 `subdomainName: "SUBDOMAN",`
 Your subdomain is the label that you chose under "My site is not fully Https" (Ommit `OS.TC`)
-
+6. Insert Your Safari web id here:
+`safari_web_id: "web.onesignal.auto.1234XXXXXXXXXXXXXXXXXXX",`
 You are finished! Go to your Instalink site to test it out!
 
-***Note: Insta Notif Does not support Apple safari codes***
 
 # Sending Nofifications:
 
