@@ -1,8 +1,24 @@
 # Insta Notif is a simple way to integrate onesignal in to your Instalink Bio Generator!
 
-Insta Notif is a very easy way to add push notifications in to your Instalink. This offeres no frontend notification creator. 
+Insta Notif is a very easy way to add push notifications in to your Instalink. This offeres no frontend notification creator due to security concerns
 You must create notifications in onesignal! 
 
+# Start tag
+Add: 
+```
+<script
+      src="https://cdn.onesignal.com/sdks/OneSignalSDK.js"
+      async=""
+    ></script>
+    <script src="/extras/notif.js"></script> 
+ ```   
+ To link this extra.
+ 
+# Support:
+
+This plugin has been tested to support `2.1.4`+ 
+
+This plugin will not work in the in-app browser of instagram! This is a ristriction put in place by Instagram!
 
 # Getting started
 
