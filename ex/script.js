@@ -1,6 +1,7 @@
+// THIS CODE IS FOR VERSIONS 2.1.4.5 AND UNDER
+
+
 // COPY AN PASTE THIS IN TO /extras/notif.js !!!!!
-
-
 
 window.OneSignal = window.OneSignal || [];
   OneSignal.push(function() {
