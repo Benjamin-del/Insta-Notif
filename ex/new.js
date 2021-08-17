@@ -1,5 +1,9 @@
 // DO NOT COPY IN TO /extras
 
+var script_tag = document.createElement('script');
+script_tag.setAttribute('src','https://cdn.onesignal.com/sdks/OneSignalSDK.js');
+document.head.appendChild(script_tag);
+
 var xmlhttp = new XMLHttpRequest();
 xmlhttp.onreadystatechange = function() {
   if (this.readyState == 4 && this.status == 200) {
