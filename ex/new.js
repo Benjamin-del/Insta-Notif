@@ -13,7 +13,7 @@ xmlhttp.onreadystatechange = function() {
     OneSignal.push(function() {
       OneSignal.init({
         appId: NT.NOTIF_app_id,
-        safari_web_id: NT.safari_web_id,
+        safari_web_id: NT.NOTIF_safari_web_id,
         notifyButton: {
           enable: true
         },
